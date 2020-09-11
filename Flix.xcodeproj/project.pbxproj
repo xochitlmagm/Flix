@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		16DBD02BAFDE9FBC48F8989C /* Pods_Flix_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40EFE8FAD9225624E45BD408 /* Pods_Flix_FlixUITests.framework */; };
 		5DAB42B89A35512B43F3A3E5 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE18892284CFFFF765FF2FE /* Pods_Flix.framework */; };
+		9B8D3B03250B3C11009F2E79 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3B02250B3C11009F2E79 /* MovieDetailsViewController.swift */; };
+		9B8D3B05250B4D7B009F2E79 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3B04250B4D7B009F2E79 /* MovieGridViewController.swift */; };
+		9B8D3B07250B51E3009F2E79 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3B06250B51E3009F2E79 /* MovieGridCell.swift */; };
 		9B96FFA625039278004A7FE9 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96FFA525039278004A7FE9 /* MovieCell.swift */; };
 		9BF74B9E2502382800EC65DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF74B9D2502382800EC65DA /* AppDelegate.swift */; };
 		9BF74BA02502382800EC65DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF74B9F2502382800EC65DA /* SceneDelegate.swift */; };
@@ -45,6 +48,9 @@
 		40EFE8FAD9225624E45BD408 /* Pods_Flix_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		658654618EA6B4334E6FB357 /* Pods-Flix-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix-FlixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Flix-FlixUITests/Pods-Flix-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		731A24C15CDD02E28E62FF74 /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8D3B02250B3C11009F2E79 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		9B8D3B04250B4D7B009F2E79 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		9B8D3B06250B51E3009F2E79 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		9B96FFA525039278004A7FE9 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		9BF74B9A2502382800EC65DA /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF74B9D2502382800EC65DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				9BF74BAB2502382B00EC65DA /* Info.plist */,
 				9BF74BCD2502D60D00EC65DA /* MoviesViewController.swift */,
 				9B96FFA525039278004A7FE9 /* MovieCell.swift */,
+				9B8D3B02250B3C11009F2E79 /* MovieDetailsViewController.swift */,
+				9B8D3B04250B4D7B009F2E79 /* MovieGridViewController.swift */,
+				9B8D3B06250B51E3009F2E79 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -168,7 +177,6 @@
 				27CFD38A1828B56BB298B424 /* Pods-FlixTests.debug.xcconfig */,
 				2433042D33DB1663747091F9 /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,10 +419,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8D3B03250B3C11009F2E79 /* MovieDetailsViewController.swift in Sources */,
 				9BF74B9E2502382800EC65DA /* AppDelegate.swift in Sources */,
 				9BF74BA02502382800EC65DA /* SceneDelegate.swift in Sources */,
 				9B96FFA625039278004A7FE9 /* MovieCell.swift in Sources */,
 				9BF74BCE2502D60D00EC65DA /* MoviesViewController.swift in Sources */,
+				9B8D3B05250B4D7B009F2E79 /* MovieGridViewController.swift in Sources */,
+				9B8D3B07250B51E3009F2E79 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
